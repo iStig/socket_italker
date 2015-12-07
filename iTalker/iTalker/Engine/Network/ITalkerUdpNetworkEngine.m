@@ -10,10 +10,6 @@
 #import "ITalkerNetworkInfo.h"
 #import "ITalkerConst.h"
 
-#define BindPortTag         0
-#define SendUdpTag          0
-
-
 @implementation ITalkerUdpNetworkEngine
 
 @synthesize networkDelegate = _networkDelegate;
