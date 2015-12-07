@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F30524C4182F27F765622E0CE1EC19DA15BDA36F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "58d4d596-0920-11e1-b21d-27624494c2f5++6945" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F30524C4182F27F765622E0CE1EC19DA15BDA36F" : 0,
+    "58d4d596-0920-11e1-b21d-27624494c2f5++6945" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F7FD6E97-F76C-4A1F-AD3F-67DE90051B31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F30524C4182F27F765622E0CE1EC19DA15BDA36F" : "iTalker-master\/",
+    "58d4d596-0920-11e1-b21d-27624494c2f5++6945" : "iTalker-master\/iTalker\/iTalker\/Library\/Reachability\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iTalker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iTalker\/iTalker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.1.5.8\/Wlan",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58d4d596-0920-11e1-b21d-27624494c2f5++6945"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:iStig\/socket_italker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F30524C4182F27F765622E0CE1EC19DA15BDA36F"
+    }
+  ]
+}

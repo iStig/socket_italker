@@ -150,17 +150,17 @@
     if (textField.tag == kITalkerChatViewInputFieldTag) {
         [UIView animateWithDuration:0.3 animations:^{
             CGRect newFrame = self.view.frame;
-            newFrame.size.height -= 170;
+            newFrame.size.height -= kInputHeight;
             
             self.view.frame = newFrame;
             
             newFrame = _chatInputField.frame;
-            newFrame.origin.y -= 170;
+            newFrame.origin.y -= kInputHeight;
             
             _chatInputField.frame = newFrame;
 
             newFrame = _sendButton.frame;
-            newFrame.origin.y -= 170;
+            newFrame.origin.y -= kInputHeight;
             
             _sendButton.frame = newFrame;
             

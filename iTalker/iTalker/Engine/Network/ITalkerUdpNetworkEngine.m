@@ -11,7 +11,7 @@
 #import "ITalkerConst.h"
 
 #define BindPortTag         1
-#define SendUdpTag          1
+#define SendUdpTag          2
 
 
 @implementation ITalkerUdpNetworkEngine

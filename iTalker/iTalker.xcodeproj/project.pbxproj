@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		620ACBC71C12BC06000D87BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 620ACBC61C12BC06000D87BC /* Default-568h@2x.png */; };
-		62675B3A1C1524C10073403F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 62675B371C1524C10073403F /* AsyncSocket.m */; };
-		62675B3B1C1524C10073403F /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 62675B391C1524C10073403F /* AsyncUdpSocket.m */; };
+		62EE0B261C15622900A3402F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EE0B221C15622900A3402F /* AsyncSocket.m */; };
+		62EE0B271C15622900A3402F /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EE0B241C15622900A3402F /* AsyncUdpSocket.m */; };
+		62EE0B281C15622900A3402F /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 62EE0B251C15622900A3402F /* Documentation.html */; };
 		BD097E1F160C0E0700C10882 /* ITalkerTcpNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD097E1E160C0E0700C10882 /* ITalkerTcpNetworkEngine.m */; };
 		BD5EA64C15DD04BC00255E00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5EA64B15DD04BC00255E00 /* UIKit.framework */; };
 		BD5EA64E15DD04BC00255E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5EA64D15DD04BC00255E00 /* Foundation.framework */; };
@@ -48,10 +49,11 @@
 
 /* Begin PBXFileReference section */
 		620ACBC61C12BC06000D87BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		62675B361C1524C10073403F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		62675B371C1524C10073403F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		62675B381C1524C10073403F /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
-		62675B391C1524C10073403F /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		62EE0B211C15622900A3402F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		62EE0B221C15622900A3402F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		62EE0B231C15622900A3402F /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		62EE0B241C15622900A3402F /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		62EE0B251C15622900A3402F /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
 		BD097E1D160C0E0700C10882 /* ITalkerTcpNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITalkerTcpNetworkEngine.h; path = Engine/Network/ITalkerTcpNetworkEngine.h; sourceTree = "<group>"; };
 		BD097E1E160C0E0700C10882 /* ITalkerTcpNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ITalkerTcpNetworkEngine.m; path = Engine/Network/ITalkerTcpNetworkEngine.m; sourceTree = "<group>"; };
 		BD5EA64715DD04BC00255E00 /* iTalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,15 +135,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		62675B351C1524C10073403F /* AsyncSocket */ = {
+		62EE0B201C15622900A3402F /* RunLoop */ = {
 			isa = PBXGroup;
 			children = (
-				62675B361C1524C10073403F /* AsyncSocket.h */,
-				62675B371C1524C10073403F /* AsyncSocket.m */,
-				62675B381C1524C10073403F /* AsyncUdpSocket.h */,
-				62675B391C1524C10073403F /* AsyncUdpSocket.m */,
+				62EE0B211C15622900A3402F /* AsyncSocket.h */,
+				62EE0B221C15622900A3402F /* AsyncSocket.m */,
+				62EE0B231C15622900A3402F /* AsyncUdpSocket.h */,
+				62EE0B241C15622900A3402F /* AsyncUdpSocket.m */,
+				62EE0B251C15622900A3402F /* Documentation.html */,
 			);
-			path = AsyncSocket;
+			path = RunLoop;
 			sourceTree = "<group>";
 		};
 		BD5EA63C15DD04BC00255E00 = {
@@ -213,7 +216,7 @@
 		BD6E734615EE09B9003E8204 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				62675B351C1524C10073403F /* AsyncSocket */,
+				62EE0B201C15622900A3402F /* RunLoop */,
 				BDD6E5C01609932300699E5A /* JSONKit */,
 				BDD6E5C31609932300699E5A /* Reachability */,
 			);
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5EA65615DD04BC00255E00 /* InfoPlist.strings in Resources */,
+				62EE0B281C15622900A3402F /* Documentation.html in Resources */,
 				BDEAF80B160712280019C9B1 /* ITalkerChatViewController.xib in Resources */,
 				BDB8188B160AE52400CF2900 /* ITalkerFriendListViewController.xib in Resources */,
 				620ACBC71C12BC06000D87BC /* Default-568h@2x.png in Resources */,
@@ -387,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5EA65815DD04BC00255E00 /* main.m in Sources */,
-				62675B3A1C1524C10073403F /* AsyncSocket.m in Sources */,
 				BD5EA65C15DD04BC00255E00 /* ITalkerAppDelegate.m in Sources */,
 				BD6E735315EE1303003E8204 /* ITalkerVoiceEngine.m in Sources */,
 				BDBC700215F4860B009495B4 /* ITalkerVoiceFileManager.m in Sources */,
@@ -398,6 +401,7 @@
 				BDD6E5CA1609962300699E5A /* ITalkerNetworkInfo.m in Sources */,
 				BDB8188A160AE52400CF2900 /* ITalkerFriendListViewController.m in Sources */,
 				BD097E1F160C0E0700C10882 /* ITalkerTcpNetworkEngine.m in Sources */,
+				62EE0B261C15622900A3402F /* AsyncSocket.m in Sources */,
 				BDBF21C7161302A800DE697F /* ITalkerBaseChatContent.m in Sources */,
 				BDBF21C8161302A800DE697F /* ITalkerChatEngine.m in Sources */,
 				BDBF21C9161302A800DE697F /* ITalkerUserInfo.m in Sources */,
@@ -411,7 +415,7 @@
 				BDAA03061626C1E300A85449 /* ITalkerTalkbackEngine.m in Sources */,
 				BDAA03091626C42A00A85449 /* ITalkerTalkbackChatContent.m in Sources */,
 				BDA5595816280F93002CA704 /* ITalkerChatItem.m in Sources */,
-				62675B3B1C1524C10073403F /* AsyncUdpSocket.m in Sources */,
+				62EE0B271C15622900A3402F /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

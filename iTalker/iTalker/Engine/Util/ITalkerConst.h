@@ -9,7 +9,7 @@
 #ifndef iTalker_ITalkerConst_h
 #define iTalker_ITalkerConst_h
 
-#define kUserObserverPort                           59031
+#define kUserObserverPort                           10000
 #define kChatAcceptPort                             10001
 
 #define kNetworkTimeOut                             -1
