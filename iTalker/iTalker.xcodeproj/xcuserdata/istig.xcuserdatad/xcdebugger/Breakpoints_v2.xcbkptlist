@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iTalker/UI/ITalkerFriendListViewController.m"
-            timestampString = "471069347.564675"
+            timestampString = "471168876.961705"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-handleNewMessage:From:"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iTalker/UI/ITalkerFriendListViewController.m"
-            timestampString = "470993355.332109"
+            timestampString = "471168893.595198"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -41,12 +41,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iTalker/UI/ITalkerTalkbackViewController.m"
-            timestampString = "470993372.983987"
+            filePath = "iTalker/UI/ITalkerFriendListViewController.m"
+            timestampString = "471168906.978154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "-handleNewMessage:From:"
             landmarkType = "5">
          </BreakpointContent>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iTalker/UI/ITalkerChatViewController.m"
-            timestampString = "471070406.793764"
+            filePath = "iTalker/UI/ITalkerFriendListViewController.m"
+            timestampString = "471168952.284792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "-handleNewMessage:From:"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "-handleTalkbackButtonClicked:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,7 +74,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iTalker/Engine/Business/ITalkerUserObserver.m"
-            timestampString = "470993413.93606"
+            timestampString = "471169505.828452"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-composePublishInfo:WithType:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iTalker/Engine/Business/ITalkerUserObserver.m"
+            timestampString = "471169509.487996"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
@@ -89,13 +105,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iTalker/Engine/Network/ITalkerUdpNetworkEngine.m"
-            timestampString = "471069651.18318"
+            filePath = "iTalker/Engine/Business/ITalkerUserObserver.m"
+            timestampString = "471169510.839116"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "-onUdpSocket:didReceiveData:withTag:fromHost:port:"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-publishUser"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iTalker/Engine/Business/ITalkerUserObserver.m"
+            timestampString = "471169512.545464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-startObserve"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -106,60 +138,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iTalker/Engine/Network/ITalkerUdpNetworkEngine.m"
-            timestampString = "471069651.18318"
+            timestampString = "471169556.248135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-onUdpSocket:didReceiveData:withTag:fromHost:port:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iTalker/Library/AsyncSocket/AsyncUdpSocket.m"
-            timestampString = "471162372.36026"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1346"
-            endingLineNumber = "1346"
-            landmarkName = "-getSocketError"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iTalker/Library/AsyncSocket/AsyncSocket.m"
-            timestampString = "471162377.047752"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2426"
-            endingLineNumber = "2426"
-            landmarkName = "-getSocketError"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iTalker/Engine/Network/ITalkerUdpNetworkEngine.m"
-            timestampString = "471163132.715483"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "-onUdpSocket:didReceiveData:withTag:fromHost:port:"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-bindPort:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

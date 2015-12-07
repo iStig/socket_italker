@@ -10,8 +10,8 @@
 #import "ITalkerNetworkInfo.h"
 #import "ITalkerConst.h"
 
-#define BindPortTag         1
-#define SendUdpTag          2
+#define BindPortTag         0
+#define SendUdpTag          0
 
 
 @implementation ITalkerUdpNetworkEngine
@@ -22,8 +22,9 @@
 {
     self = [super init];
     if (self) {
-        _udpSocket = [[AsyncUdpSocket alloc] initIPv4];
-        [_udpSocket setDelegate:self];
+        _udpSocket = [[AsyncUdpSocket alloc] initWithDelegate:self];
+//      _udpSocket = [[AsyncUdpSocket alloc] initIPv4];
+//        [_udpSocket setDelegate:self];
       
         _currentPort = 0;
     }
